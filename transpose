@@ -1,9 +1,0 @@
-
-filename =" ___"
-
-import pandas as pd
-import numpy as np
-df=pd.read_csv(filename)
-X= df.values
-Y =X.T
-np.savetxt('test.csv', Y, fmt='%s',delimiter=',')
